@@ -1,0 +1,23 @@
+# 开发与调试产物（绝不入库）
+dev/
+dev_tmp/
+dev_tmp_*
+*.log
+*.bat
+
+# 本机证据图与截图
+docs/
+
+# 依赖（本插件为纯前端 ESM，无构建步骤）
+node_modules/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 凭据
+*.key
+*.token
+.env
